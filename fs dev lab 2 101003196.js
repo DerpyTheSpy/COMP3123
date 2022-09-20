@@ -7,6 +7,7 @@ gretter(["Randy Savage", "Ric Flair", "Hulk Hogan"], 3);
 
 
 
+
 const capitalize = (letter) => {
         const [first, ...theRest] = Array.from(letter);//the three dots are there to add whatever is after first to the array
         return(first.toUpperCase() + theRest.join('').toLowerCase());
